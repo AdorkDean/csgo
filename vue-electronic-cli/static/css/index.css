@@ -1,0 +1,84 @@
+
+/*header*/
+header{ height:4.4rem; line-height:4.4rem; background:black; color:#FFF; font-size:1.6rem; position:relative;}
+.cs-header-l{ position:absolute; left:1rem; z-index:99;}
+.cs-header-l img{ height:2rem;}
+.cs-h-logo{ position:absolute; top:0; right:1rem; z-index:99;}
+.cs-h-logo img{ height:2.2rem;}
+/*正文*/
+#carousel{ position:relative; height:16rem;}
+.fo-img{ position:absolute; z-index:99; width:100%;}
+.fo-img img{ height:16rem; width:100%;}
+.foating{ position: relative; bottom:2rem; z-index:100; height:2rem; background-color:rgba(0,0,0,.4); width:100%;}
+.foat-txt{ position:absolute; bottom:0; z-index:100; height:2rem; color:rgb(255,255,255); line-height:2rem; width:100%; padding:0 .8rem;}
+.fot-r-li{ padding-top:.9rem;}
+.fot-r-li i{ width:1.4rem; height:.3rem; background:#E6E6E6; display:block; margin-left:.7rem; float:left; border-radius:.3rem;}
+.fot-r-li i.fot-hov{ background:#E53C4E;}
+#topic-box{ padding:1rem .8rem;display: flex; justify-content: space-between; color:rgb(255,255,255);}
+.topic-lf{ margin-right:.9rem; width:100%; height:13.2rem; position:relative;background:url(../img/pic1.png) no-repeat; background-size:100% 100%; }
+.topic-lr{ width:100%; height:13.2rem; position:relative;background:url(../img/pic2.png) no-repeat; background-size:100% 100%;}
+.topic-tit,.topic-tit2{ width:6.9rem; height:2.2rem; line-height:2.2rem; background:#33CC99; position:absolute; top:-.5rem; left:.7rem; text-align:center;}
+.topic-txt{ position:absolute; bottom:.4rem; left:0; width:100%; height:1.5rem; line-height:1.5rem; padding:0 .3rem; overflow:hidden; color:#DED3DC;}
+.topic-bg{position:absolute; bottom:0; left:0; width:100%; background-color:rgba(0,0,0,.3); height:2.4rem; }
+.topic-tit2{ background:#EF6095;}
+.bg4{ height:.4rem; background:#F2F2F2;}
+#live-events{ height:4rem; line-height:4rem; padding:0 1rem;}
+.ev-t i{ display:block; width:.2rem; height:1.2rem; background:#F30; content:""; margin-top:1.4rem;}
+#live-events div:nth-child(2){ margin-left:.8rem; font-size:1.5rem;}
+.ev-more a{ padding-top:1.7rem; height:4rem; display:block; padding-left:3rem;}
+.ev-more i{ width:.6rem; height:.6rem; content:""; display:block; float:left; background:#EF6095; margin-left:.4rem; transform:rotate(7deg);
+-webkit-transform:rotate(45deg);}
+.event-box{ padding-bottom:1rem; background:rgb(255,255,255);}
+.event-box a{ color:inherit;}
+.evt-title{ height: 3rem;}
+.evt-lf{width: 9.4rem; height: 3rem; line-height: 3rem; background: linear-gradient(-135deg, transparent 2em, #ef6095 0); color: #fff; padding-left: 1.5rem;}
+.evt-con{ position: absolute; left: 50%; z-index: 99; margin-left: -7.5rem; width: 15rem; font-size: 1.2rem; line-height: 3rem; overflow: hidden; height: 3rem; color:#57607C;}
+.evt-txt-vs{display: flex; justify-content: space-between; text-align:center; padding:0 .5rem; height:6rem;}
+.evt-vs-fl{ width:35%; position:relative;}
+.evt-vs-fc{ width:34%; position:relative;}
+.evt-vs-fr{ width:35%; position:relative;}
+.evt-vs-fl div,.evt-vs-fr div{ width:100%; text-align:center; height:2rem; line-height:2rem; overflow:hidden;}
+.evt-vs-fl div:nth-child(1),.evt-vs-fr div:nth-child(1){ position:absolute; bottom:2.1rem; z-index:99; font-size:1.4rem; color:#57607C; font-weight:bold;}
+.evt-vs-fl div:nth-child(2),.evt-vs-fr div:nth-child(2){ position:absolute; bottom:0; z-index:99; font-size:1.2rem; color:#6E86A7;}
+.vs-fc-vs{position:absolute; bottom:1rem; z-index:99; width:100%; font-size:3rem; font-weight:bold; color:#3A3F4F;}
+.evt-lr img { height: 3rem;}
+.evt-txt-date{ color:#EF6095;}
+.evt-txt-date div{ display:inline-block;}
+.evt-nm{ margin-left:.8rem;}
+.evt-over{background: linear-gradient(-135deg, transparent 2em, #abbcd6 0);}
+.evt-dat-colr{ color:#AABCD6 !important;}
+.evt-ing{ background: linear-gradient(-135deg, transparent 2em, #18d2bb 0);}
+.evt-ing-colr{ color:#18D2BA !important;}
+.evt-table{ padding:0 1rem; margin-top:1rem;}
+.evt-table ul{ font-size:1.2rem; border-left: 1px solid #AABCD6; border-top: 1px solid #AABCD6; overflow: auto;}
+.evt-table ul li { float: left;width: 33.3%; background: none; text-align: center;border-bottom: 1px solid #AABCD6;
+border-right: 1px solid #AABCD6;display: block; height:3.4rem; line-height:3.4rem;overflow: hidden;text-decoration: none; color: #333;}
+.img-a img{ margin:-.4rem 0 0 .2rem; height:1rem;}
+.evt-red{ color:#FF4C4E;}
+.evt-green{ color:#00CC66;}
+.mg-rg{margin-left:1rem;}
+.vs-mgn{ margin: 0 1rem;}
+/*弹出*/
+#evt-pop{position:absolute; top:4.4rem; left:0; z-index:999; background:rgb(255,255,255); width:15.6rem;}
+.box-enter-active,.box-leave-active{transition: all .8s}
+.box-enter{opacity: 0;margin-left:-15.6rem}
+.box-leave{opacity: 0;margin-left:0}
+.pop-logo{ padding:2.8rem 0 .5rem 0; border-bottom:.1rem solid #E1E8F0;}
+.pop-logo img{ height:4rem; margin-left:.5rem;}
+.pop-logo p:nth-child(2){ font-size:1.5rem;}
+.pop-list{border-bottom:.1rem solid #E1E8F0;}
+.pop-list a{ color:inherit; height:5rem; line-height:5rem; text-align:center; display:block; font-size:1.5rem; position:relative;}
+.pop-list img{ position:absolute; height:3rem; top:50%; margin-top:-1.5rem; left:.8rem; }
+.pop-list i.arrow-r{ width:.8rem; height:.8rem; content:""; display:block; float: left;border:.1rem solid #868686; border-left:none; border-bottom:none;margin-left: .4rem;transform: rotate(45deg); -webkit-transform: rotate(45deg); position:absolute; right:1.8rem; top:50%; z-index:999; margin-top:-.4rem;}
+.pop-list i.circle{width:1.2rem; height:1.2rem; line-height:1.2rem !important; color:rgb(255,255,255); background:#FF4C4E; position:absolute; right:1.8rem; border-radius:50%; top:50%; font-style:normal; font-size:1rem; margin-top:-.6rem;}
+.pop-mg{ padding-bottom:1rem;}
+.pop-list i.arrow-j{ position:absolute; border-radius:50%; bottom:-1.8rem;font-style:normal; left:5rem; color:#AABCD6; font-size:1rem;}
+
+#main-bg{ background:#F2F2F2; height:100%}
+
+/*实况赛事*/
+.shax-img{ position:absolute; top:0; right:5rem; z-index:99;}
+.shax-img img,.shax-img2 img{ height:2rem;}
+.shax-img2{ position:absolute; top:0; right:1rem; z-index:99;}
+.evt-vs-fc{ width:34%; position:relative;}
+
